@@ -29,6 +29,14 @@ hr {
   width: 50%;
 }
 
+a {
+  color: #e16363;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 10px;
+  text-decoration: none;
+
+}
+
 .top-container {
   background-color: #f7e8e8;
   position: relative;
@@ -69,7 +77,7 @@ hr {
 
 .bottom-container {
   background-color: #f7e8e8;
-  padding: 30px 0 20px;
+  padding: 50px 0 20px;
 }
 
 .Pro {
@@ -157,3 +165,4 @@ hr {
   width: 40%;
   margin: 60px auto 60px;
 }
+
