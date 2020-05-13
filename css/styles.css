@@ -67,7 +67,10 @@ hr {
 
 }
 
-.bottom-container {}
+.bottom-container {
+  background-color: #f7e8e8;
+  margin: auto;
+}
 
 .Pro {
   text-decoration: underline;
@@ -93,7 +96,30 @@ hr {
 
 .btn {
   color: #e16363;
+   background: #F7E8E8;
+   background-image: -webkit-linear-gradient(top, #F7E8E8, #C18787);
+   background-image: -moz-linear-gradient(top, #F7E8E8, #C18787);
+   background-image: -ms-linear-gradient(top, #F7E8E8, #C18787);
+   background-image: -o-linear-gradient(top, #F7E8E8, #C18787);
+   background-image: linear-gradient(to bottom, #F7E8E8, #C18787);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #962D2D;
+   font-family: Arial;
+   font-size: 15px;
+   font-weight: 100;
+   padding: 16px;
+   box-shadow: 1px 1px 20px 0px #000000;
+   -webkit-box-shadow: 1px 1px 20px 0px #000000;
+   -moz-box-shadow: 1px 1px 20px 0px #000000;
+   text-shadow: 1px 1px 20px #000000;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
 }
+
 
 .skill-row {
   margin: 0 auto 100px auto;
@@ -112,4 +138,9 @@ hr {
   width: 25%;
   float: right;
   margin-left: 30px;
+}
+
+.contact-me {
+  width: 40%;
+  margin: 60px auto 60px;
 }
