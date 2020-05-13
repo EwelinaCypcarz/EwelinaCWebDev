@@ -34,11 +34,10 @@ a {
   font-family: 'Montserrat', sans-serif;
   margin: 10px 10px;
   text-decoration: none;
-
 }
 
-a:hover{
-  color: #EAF6F6;
+a:hover {
+  color: #f1d1d1;
 }
 
 .top-container {
@@ -65,19 +64,15 @@ a:hover{
   position: relative;
   left: 125px;
   bottom: 90px;
-
 }
 
 .wreath {
   width: 400px;
   position: relative;
   right: 180px;
-
 }
 
-.middle-container {
-
-}
+.middle-container {}
 
 .bottom-container {
   background-color: #f7e8e8;
@@ -107,44 +102,42 @@ a:hover{
 }
 
 .btn {
-   background: #F8DDE9;
-   background-image: -webkit-linear-gradient(top, #F8DDE9, #F8DDE9);
-   background-image: -moz-linear-gradient(top, #F8DDE9, #F8DDE9);
-   background-image: -ms-linear-gradient(top, #F8DDE9, #F8DDE9);
-   background-image: -o-linear-gradient(top, #F8DDE9, #F8DDE9);
-   background-image: linear-gradient(to bottom, #F8DDE9, #F8DDE9);
-   -webkit-border-radius: 20px;
-   -moz-border-radius: 20px;
-   border-radius: 20px;
-   color: #D35656;
-   font-family: serif;
-   font-size: 21px;
-   font-weight: 100;
-   padding: 19px;
-   box-shadow: 1px 1px 20px 0px rgba(255, 255, 255, 0.35);
-   -webkit-box-shadow: 1px 1px 20px 0px rgba(255, 255, 255, 0.35);
-   -moz-box-shadow: 1px 1px 20px 0px rgba(255, 255, 255, 0.35);
-   text-decoration: none;
-   display: inline-block;
-   cursor: pointer;
-   text-align: center;
+  background: #F8DDE9;
+  background-image: -webkit-linear-gradient(top, #F8DDE9, #F8DDE9);
+  background-image: -moz-linear-gradient(top, #F8DDE9, #F8DDE9);
+  background-image: -ms-linear-gradient(top, #F8DDE9, #F8DDE9);
+  background-image: -o-linear-gradient(top, #F8DDE9, #F8DDE9);
+  background-image: linear-gradient(to bottom, #F8DDE9, #F8DDE9);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  color: #D35656;
+  font-family: serif;
+  font-size: 21px;
+  font-weight: 100;
+  padding: 19px;
+  box-shadow: 1px 1px 20px 0px rgba(255, 255, 255, 0.35);
+  -webkit-box-shadow: 1px 1px 20px 0px rgba(255, 255, 255, 0.35);
+  -moz-box-shadow: 1px 1px 20px 0px rgba(255, 255, 255, 0.35);
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
 }
 
 .btn:hover {
-   border: solid rgba(255, 255, 255, 0.29) 1px;
-   background: #DA869B;
-   background-image: -webkit-linear-gradient(top, #DA869B, #DA869B);
-   background-image: -moz-linear-gradient(top, #DA869B, #DA869B);
-   background-image: -ms-linear-gradient(top, #DA869B, #DA869B);
-   background-image: -o-linear-gradient(top, #DA869B, #DA869B);
-   background-image: linear-gradient(to bottom, #DA869B, #DA869B);
-   -webkit-border-radius: 20px;
-   -moz-border-radius: 20px;
-   border-radius: 20px;
-   text-decoration: none;
+  border: solid rgba(255, 255, 255, 0.29) 1px;
+  background: #DA869B;
+  background-image: -webkit-linear-gradient(top, #DA869B, #DA869B);
+  background-image: -moz-linear-gradient(top, #DA869B, #DA869B);
+  background-image: -ms-linear-gradient(top, #DA869B, #DA869B);
+  background-image: -o-linear-gradient(top, #DA869B, #DA869B);
+  background-image: linear-gradient(to bottom, #DA869B, #DA869B);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
 }
-
-
 
 .skill-row {
   margin: 0 auto 100px auto;
@@ -168,5 +161,11 @@ a:hover{
 .contact-me {
   width: 40%;
   margin: 60px auto 60px;
+}
+
+.copyright {
+  color: #D35656;
+  font-size: 0.65rem;
+  padding: 20px 0;
 }
 
