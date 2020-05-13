@@ -95,30 +95,43 @@ hr {
 }
 
 .btn {
-  color: #e16363;
-   background: #F7E8E8;
-   background-image: -webkit-linear-gradient(top, #F7E8E8, #C18787);
-   background-image: -moz-linear-gradient(top, #F7E8E8, #C18787);
-   background-image: -ms-linear-gradient(top, #F7E8E8, #C18787);
-   background-image: -o-linear-gradient(top, #F7E8E8, #C18787);
-   background-image: linear-gradient(to bottom, #F7E8E8, #C18787);
+   background: #F8DDE9;
+   background-image: -webkit-linear-gradient(top, #F8DDE9, #F8DDE9);
+   background-image: -moz-linear-gradient(top, #F8DDE9, #F8DDE9);
+   background-image: -ms-linear-gradient(top, #F8DDE9, #F8DDE9);
+   background-image: -o-linear-gradient(top, #F8DDE9, #F8DDE9);
+   background-image: linear-gradient(to bottom, #F8DDE9, #F8DDE9);
    -webkit-border-radius: 20px;
    -moz-border-radius: 20px;
    border-radius: 20px;
-   color: #962D2D;
-   font-family: Arial;
-   font-size: 15px;
+   color: #D35656;
+   font-family: serif;
+   font-size: 21px;
    font-weight: 100;
-   padding: 16px;
-   box-shadow: 1px 1px 20px 0px #000000;
-   -webkit-box-shadow: 1px 1px 20px 0px #000000;
-   -moz-box-shadow: 1px 1px 20px 0px #000000;
-   text-shadow: 1px 1px 20px #000000;
+   padding: 19px;
+   box-shadow: 1px 1px 20px 0px rgba(255, 255, 255, 0.35);
+   -webkit-box-shadow: 1px 1px 20px 0px rgba(255, 255, 255, 0.35);
+   -moz-box-shadow: 1px 1px 20px 0px rgba(255, 255, 255, 0.35);
    text-decoration: none;
    display: inline-block;
    cursor: pointer;
    text-align: center;
 }
+
+.btn:hover {
+   border: solid rgba(255, 255, 255, 0.29) 1px;
+   background: #DA869B;
+   background-image: -webkit-linear-gradient(top, #DA869B, #DA869B);
+   background-image: -moz-linear-gradient(top, #DA869B, #DA869B);
+   background-image: -ms-linear-gradient(top, #DA869B, #DA869B);
+   background-image: -o-linear-gradient(top, #DA869B, #DA869B);
+   background-image: linear-gradient(to bottom, #DA869B, #DA869B);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+
 
 
 .skill-row {
